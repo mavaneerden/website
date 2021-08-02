@@ -43,4 +43,4 @@ jobs:
           # Arguments to pass to rsync
           ARGS: -avz
           # An array of folder to exclude
-          EXCLUDE: README.md
+          EXCLUDE: README.md, .git/, .gitignore, .github/

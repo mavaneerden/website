@@ -6,6 +6,3 @@ templates/
 *.sh
 *.sync
 *.ico
-
-# Files
-.htaccess

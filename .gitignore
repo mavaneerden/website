@@ -1,2 +1,11 @@
+# Folders
+assets/
+templates/
+
+# File extensions
 *.sh
 *.sync
+*.ico
+
+# Files
+.htaccess

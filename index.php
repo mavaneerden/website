@@ -1,4 +1,7 @@
-<?php $title = "Index"; include "$_SERVER[DOCUMENT_ROOT]/templates/page_head.php"; ?>
+<?php
+    $title = "Index";
+    include "$_SERVER[DOCUMENT_ROOT]/templates/page_head.php";
+?>
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/header.php"; ?>
 
 <h1>Index DEV</h1>

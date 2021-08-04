@@ -1,16 +1,17 @@
 <?php
-    $title = "Index";
+    $title = "Learn Morse code";
     include "$_SERVER[DOCUMENT_ROOT]/templates/page_head.php";
 ?>
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/header.php"; ?>
 
-<h1>Index DEV</h1>
+<h1>Learn Morse code</h1>
+To add:
 <ul>
-    <li>Learning</li>
-    <ul>
-        <li><a href="learn/morse.php">Learn Morse code</a></li>
-        <li><a href="learn/flags.php">Learn the flags of all countries</a></li>
-    </ul>
+    <li>Sound to letters</li>
+    <li>Light to letters</li>
+    <li>Writing to letters</li>
+    <li>Letters to typing</li>
+    <li>Letters to mouse clicks</li>
 </ul>
 
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/footer.php"; ?>

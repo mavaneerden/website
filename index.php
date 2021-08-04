@@ -13,8 +13,8 @@
     </ul>
     <li>Links</li>
     <ul>
-        <li><a href="https://github.com/mavaneerden">Github</a></li>
-        <li><a href="https://linkedin.com/in/marco-van-eerden">Linkedin</a></li>
+        <li><a href="https://github.com/mavaneerden" target="_blank" rel="noopener noreferrer">Github</a></li>
+        <li><a href="https://linkedin.com/in/marco-van-eerden" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
     </ul>
 </ul>
 

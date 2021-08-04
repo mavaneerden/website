@@ -11,6 +11,11 @@
         <li><a href="learn/morse.php">Learn Morse code</a></li>
         <li><a href="learn/flags.php">Learn the flags of all countries</a></li>
     </ul>
+    <li>Links</li>
+    <ul>
+        <li><a href="https://github.com/mavaneerden">Github</a></li>
+        <li><a href="https://linkedin.com/in/marco-van-eerden">Linkedin</a></li>
+    </ul>
 </ul>
 
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/footer.php"; ?>

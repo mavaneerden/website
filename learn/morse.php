@@ -5,7 +5,7 @@
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/header.php"; ?>
 
 <h1>Learn Morse code</h1>
-To add:
+TODO:
 <ul>
     <li>Sound to letters</li>
     <li>Light to letters</li>

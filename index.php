@@ -4,7 +4,7 @@
 ?>
 <?php include "$_SERVER[DOCUMENT_ROOT]/templates/elements/header.php"; ?>
 
-<h1>Index DEV</h1>
+<h1>Index</h1>
 <ul>
     <li>Learning</li>
     <ul>

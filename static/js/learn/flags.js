@@ -52,6 +52,8 @@ function get_flag() {
         documentOrigin = "https:" + document.location.origin.split(":")[1];
     }
 
+    console.log(documentOrigin);
+
     $.ajax({
         type: "GET",
         url: documentOrigin + "/ajax/flags.php",

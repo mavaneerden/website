@@ -46,13 +46,17 @@ function get_flag() {
     $("#flag-button-skip").prop("disabled", true);
     $("#loading").css("visibility", "visible");
 
+    let documentOrigin = document.location.origin;
+
+    if (!documentOrigin.includes("localhost")) {
+        documentOrigin = "https:" + document.location.origin.split(":")[1];
+    }
+
     $.ajax({
         type: "GET",
-        url: "/ajax/flags.php",
+        url: documentOrigin + "/ajax/flags.php",
         success: (res) => {
             const jsonData = JSON.parse(res);
-
-            console.log(res);
 
             $("#flag-image").attr("src", "https://flagcdn.com/w320/" + jsonData.code + ".png");
 

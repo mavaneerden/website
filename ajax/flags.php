@@ -1,5 +1,4 @@
 <?php
-
 $file = "$_SERVER[DOCUMENT_ROOT]/data/flags.json";
 $lines = file($file);
 $random = rand(1, count($lines) - 2);

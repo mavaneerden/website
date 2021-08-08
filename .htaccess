@@ -4,6 +4,8 @@ SetEnvIf X-Forwarded-Proto "https" HTTPS=on
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+RewriteRule ^ajax/ - [L]
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 

@@ -56,7 +56,7 @@ function get_flag() {
 
     $.ajax({
         type: "GET",
-        url: documentOrigin + "/ajax/flags.php",
+        url: "/ajax/flags.php",
         success: (res) => {
             const jsonData = JSON.parse(res);
 

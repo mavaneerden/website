@@ -15,7 +15,7 @@
     <button id="flag-button-skip">Skip</button>
     <img id="loading" width="14" src="https://media1.tenor.com/images/d6cd5151c04765d1992edfde14483068/tenor.gif"/>
     <form id="flag-form">
-        <input id="flag-input-text" type="text"/>
+        <input id="flag-input-text" type="text" autofocus/>
         <button id="flag-button-submit" type="submit">Submit</button>
     </form>
     <span id="flag-feedback"></span>

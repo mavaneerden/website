@@ -6,6 +6,7 @@ $(document).ready(() => {
     $("#flag-button-skip").click(() => {
         $("#flag-feedback").text("Skipped: " + currentFullName);
         get_flag();
+        $("#flag-input-text").focus();
     });
 
     /* Check if input is correct. */
@@ -23,6 +24,7 @@ $(document).ready(() => {
         }
 
         $("#flag-input-text").val("");
+        $("#flag-input-text").focus();
     });
 
     /* Remove loading gif and use timeout for skip button. */
@@ -45,14 +47,6 @@ $(document).ready(() => {
 function get_flag() {
     $("#flag-button-skip").prop("disabled", true);
     $("#loading").css("visibility", "visible");
-
-    let documentOrigin = document.location.origin;
-
-    if (!documentOrigin.includes("localhost")) {
-        documentOrigin = "https:" + document.location.origin.split(":")[1];
-    }
-
-    console.log(documentOrigin);
 
     $.ajax({
         type: "GET",

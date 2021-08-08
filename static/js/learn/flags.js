@@ -52,6 +52,8 @@ function get_flag() {
         success: (res) => {
             const jsonData = JSON.parse(res);
 
+            console.log(res);
+
             $("#flag-image").attr("src", "https://flagcdn.com/w320/" + jsonData.code + ".png");
 
             currentFullName = jsonData.names[0];

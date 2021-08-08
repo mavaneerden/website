@@ -1,0 +1,17 @@
+#flag-image-container {
+    width: 400px;
+    height: 400px;
+    background-color: #DDD;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    border: 1px solid black;
+}
+#loading {
+    height: 15px;
+    vertical-align: middle;
+}
+
+#flag-form {
+    display: inline-block;
+}

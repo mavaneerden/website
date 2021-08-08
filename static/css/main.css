@@ -19,8 +19,10 @@ header, footer {
 
 header {
     border-bottom: 1px solid black;
+    margin-bottom: 30px;
 }
 
 footer {
     border-top: 1px solid black;
+    margin-top: 30px;
 }

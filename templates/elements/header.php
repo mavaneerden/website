@@ -1,6 +1,6 @@
 <header>
     <div class="header-content">
-        Header content
+        <h1>marcovaneerden.nl</h1>
     </div>
 </header>
 <div class="content">

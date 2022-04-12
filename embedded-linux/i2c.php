@@ -131,6 +131,7 @@ The protocol to communicate with the display is as follows:
         Communication stops when a STOP condition is detected.
     </li>
 </ol>
+Check out my SSD1306 driver for the Raspberry Pi Zero W <a href="https://github.com/mavaneerden/raspberry-pi-zero-w-peripherals/tree/1-i2c-abstraction/examples/i2c">here</a>.
 </p>
 
 <br></br>

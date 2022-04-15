@@ -17,7 +17,7 @@
         <li><a href="embedded-linux/rs-422.php">RS-422</a></li>
         <li><a href="embedded-linux/rs-485.php">RS-485</a></li>
         <li><a href="embedded-linux/can.php">CAN</a></li>
-        <li><a href="embedded-linux/canopen.php">CANopen</a></li>
+        <!-- <li><a href="embedded-linux/canopen.php">CANopen</a></li> -->
         <li><a href="embedded-linux/usb.php">USB</a></li>
         <li><a href="embedded-linux/inter-process-communication.php">Inter-process communication</a></li>
     </ul>

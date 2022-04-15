@@ -35,6 +35,7 @@ The UART protocol consists of the following stages:
     </li>
     <li>Stop: UART sends 1-2 STOP bits, which are always high.</li>
 </ol>
+Since UART is asynchronous, the baud rate and data length need to be agreed on before communication.
 </p>
 
 <br></br>

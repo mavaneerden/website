@@ -24,6 +24,9 @@ The network needs one CS line for every slave.
 
 <h2>Protocol definition</h2>
 <p>
+The SPI protocol has four modes which consist of the CPHA and CPOL values. The value of CPOL determines if the clock is active high or active low.
+The value of CPHA determines wheather the device samples the bits on a rising or falling edge.
+<br>
 The SPI protocol consists of the following stages:
 <ol>
     <li>Start: CS is pulled low.</li>

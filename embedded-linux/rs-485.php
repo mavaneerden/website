@@ -16,6 +16,8 @@ The RS-485 protocol is a master-slave protocol with multiple masters (the 'drive
 It uses a twisted pair of differential signals, which makes it resistant to noise and allows a cable length of up to 1200m.
 An extra ground wire can also be used to connect the local grounds of the devices to eachother.
 The protocol requires two termination resistors per bus, to avoid reflections of the signal through the cable.
+<br>
+Since RS-422 is a subset of RS-485, RS-422 communication can easily be converted into RS-485 communication.
 </ul>
 
 <h2>Protocol definition</h2>

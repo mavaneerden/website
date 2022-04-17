@@ -6,6 +6,15 @@
 
 <h1>Index</h1>
 <ul>
+    <li>
+        <b>Space launch logs</b><br>
+        Unfortunately, spacelaunchreport.com will be shutting down soon, which is why I am putting the launch reports here.
+        <ul>
+            <li><a href="launch-logs/log-2022.php">2022 launch log</a></li>
+            <li><a href="launch-logs/log-2021.php">2021 launch log</a></li>
+            <li><a href="launch-logs/log-2020.php">2020 launch log</a></li>
+        </ul>
+    </li>
     <li>Embedded Software</li>
     <ul>
         <li><a href="embedded-linux/gpio.php">GPIO</a></li>
